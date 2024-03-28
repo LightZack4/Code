@@ -4,6 +4,7 @@ import React from 'react';
 import {FaUserShield} from 'react-icons/fa' // Import React if not imported
 import {BsFillShieldLockFill} from 'react-icons/bs' // Import React if not imported
 import {AiOutlineSwapRight} from 'react-icons/ai' // Import React if not imported
+import {MdMarkEmailRead} from 'react-icons/md' // Import React if not imported
 const RegisterComp = () => {
     return (
         <div className="registerPage flex">
@@ -16,9 +17,9 @@ const RegisterComp = () => {
                         <h2 className='title'> Welcome To The Best Uviversity Social Media</h2>
                         <p>Adopt fun and studies!</p>
                         <div className="footerDiv">
-                            <span className="text">Don't have an account?</span>
-                            <Link href="/register">
-                                <button className='btn'>Sign Up</button>
+                            <span className="text">Have an account?</span>
+                            <Link href="/">
+                                <button className='btn'>Login</button>
                             </Link>
                         </div>
                     </div>
@@ -28,16 +29,23 @@ const RegisterComp = () => {
                 <div className="formDiv flex">
                     <div className="headerDiv">
                         <img src="/loginAssets/logo.png" alt="Logo Image"/>
-                        <h3>Welcome Back!</h3>
+                        <h3>Let Us Know You!</h3>
                     </div>
                
                 <form className='form grid'>
-                        <span className='showMessage'>Register Status will go here</span>
+                       
+                    <div className="inputDiv">
+                        <label htmlFor="email">Email</label>
+                        <div className="input flex">
+                            <MdMarkEmailRead className='icon'/>
+                            <input type="email" id='email' placeholder='Enter Email' />
+                        </div>
+                    </div>
                     <div className="inputDiv">
                         <label htmlFor="username">Username</label>
                         <div className="input flex">
                             <FaUserShield className='icon'/>
-                            <input type="text" id='username' placeholder='Enter Username' />
+                            <input type="username" id='username' placeholder='Enter Username' />
                         </div>
                     </div>
                     <div className="inputDiv">
