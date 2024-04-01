@@ -8,11 +8,11 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    
-    <div className="container" id={Styles2.myPageBody} >
-      <Sidebar />
-      <Body />
-    </div>
+    <div></div>
+    // <div className="container" id={Styles2.myPageBody} >
+    //   <Sidebar />
+    //   <Body />
+    // </div>
     
   )
 }

@@ -16,13 +16,14 @@ const RegisterComp = () => {
                     <div className="textDiv">
                         <h2 className='title'> Welcome To The Best Uviversity Social Media</h2>
                         <p>Adopt fun and studies!</p>
-                        <div className="footerDiv">
+                       
+                    </div>
+                    <div className="footerDiv">
                             <span className="text">Have an account?</span>
                             <Link href="/login">
                                 <button className='btn'>Login</button>
                             </Link>
                         </div>
-                    </div>
 
                 </div>
 

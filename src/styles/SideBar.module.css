@@ -10,8 +10,7 @@
     .logoDiv{
         padding: 1.5rem 1.5rem 0;
         cursor: pointer;
-        .logo{
-            
+        .logo{    
             max-width: 20px;
             margin-right: .5rem;
             background-color: var(--inputColor);
