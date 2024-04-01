@@ -1,0 +1,53 @@
+/* .listingSection{
+    flex-basis: 70%;
+}
+
+.listingSection .heading{
+    width: 100%;
+    justify-content: space-between;
+}
+ */
+/* Listing.module.css */
+.commentContainer {
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+.commentBox {
+    flex: 1; /* Take remaining space */
+    min-width: 0; /* Ensure the textarea can shrink */
+    resize: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px; /* Adjust margin as needed */
+    opacity: 0.7; /* Adjust transparency as needed */
+    width: 100%; /* Adjust according to your design */
+}
+
+/* .commentfull{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#post{
+    height: 40px;
+    margin: 0;
+} */
+/* Listing.module.css */
+.linkContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.viewComments {
+    font-size: 12px; /* Adjust font size as needed */
+    margin-left: 10px; /* Adjust margin as needed */
+    color: #0070f3; /* Adjust color as needed */
+    text-decoration: none;
+}
+.viewComments:hover {
+    color: red; /* Change color on hover */
+}

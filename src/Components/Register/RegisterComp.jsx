@@ -18,7 +18,7 @@ const RegisterComp = () => {
                         <p>Adopt fun and studies!</p>
                         <div className="footerDiv">
                             <span className="text">Have an account?</span>
-                            <Link href="/">
+                            <Link href="/login">
                                 <button className='btn'>Login</button>
                             </Link>
                         </div>

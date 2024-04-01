@@ -1,16 +1,18 @@
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import DashComp from '@/Components/Dashboard/DashboardComp'
-import LoginComp from '../Components/Login/LoginComp'
+import Styles from '@/styles/Body.module.css'
+import Styles2 from '@/styles/mainPage.module.css'
+import Sidebar from '@/Components/Dashboard/SideBar Section/SideBar'
+import Body from '@/Components/Dashboard/Body Section/Body'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <>
-    <LoginComp />
-    {/* <Dashboard/> */}
-
-    </>
+    
+    <div className="container" id={Styles2.myPageBody} >
+      <Sidebar />
+      <Body />
+    </div>
+    
   )
 }

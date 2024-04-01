@@ -1,6 +1,8 @@
+import LoginComp from "@/Components/Login/LoginComp";
+
 const Login = () => {
     return ( 
-        <div>test</div>
+        <LoginComp />
      );
 }
  
