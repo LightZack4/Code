@@ -8,6 +8,8 @@ import { BsQuestionCircle, BsTrophy } from 'react-icons/bs'
 
 
 const Sidebar = () => {
+
+    
     return ( 
         <div className='sideBar grid' id={styles.sideBar}>
 
