@@ -6,16 +6,17 @@
     gap:3rem;
     overflow: auto;
     
-
-    .logoDiv{
-        padding: 1.5rem 1.5rem 0;
-        cursor: pointer;
-        .logo{    
-            max-width: 20px;
-            margin-right: .5rem;
-            background-color: var(--inputColor);
-            border-radius:2px ;
-            padding: .2rem;
-        }
-    }
 }
+.logoDiv{
+    padding: 1.5rem 1.5rem 0;
+    cursor: pointer;
+    display: inline-block;
+    
+}
+.logo{    
+        max-width: 20px;
+        margin-right: .5rem;
+        background-color: var(--inputColor);
+        border-radius:2px ;
+        padding: .2rem;
+    }
