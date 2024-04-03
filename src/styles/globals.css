@@ -238,6 +238,11 @@ img, video {
         padding: 1rem;
         background: var(--inputColor);
         border-radius: 10px;
+        border: 1.5px solid transparent;
+      }
+      .input:focus-within  {
+        border: 1.5px solid var(--primaryColor);
+        transition: all 0.3s ease; /* Border color on child focus */
       }
     }
   
@@ -257,6 +262,7 @@ img, video {
         font-size: 25px;
         transition: .3s ease; /* Fixed typo here */
       }
+      
     }
   
     .btn:hover {
@@ -572,6 +578,7 @@ img, video {
 
     .leftCard{
       flex-basis: 50%;
+      margin-left: 50px;
       .main{
         position: relative;
         padding: 1rem;
@@ -582,7 +589,7 @@ img, video {
           content: '';
           position: absolute;
           height: 100%;
-          width: 100%;
+          width: 105%;
           background: var(--paleGreen);
           left: 0;
           bottom: 0;
