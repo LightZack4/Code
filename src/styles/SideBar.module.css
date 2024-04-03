@@ -6,17 +6,37 @@
     gap:3rem;
     overflow: auto;
     
-}
-.logoDiv{
-    padding: 1.5rem 1.5rem 0;
-    cursor: pointer;
-    display: inline-block;
+
+    .profileDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    
+    .profileImage {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    
+    .profileImage img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .profileText {
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #333;
+        text-align: center;
+        transition: color 0.3s ease; 
+    }
+    
+    .profileText:hover {
+        color: green; 
+    }
     
 }
-.logo{    
-        max-width: 20px;
-        margin-right: .5rem;
-        background-color: var(--inputColor);
-        border-radius:2px ;
-        padding: .2rem;
-    }
