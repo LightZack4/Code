@@ -240,9 +240,10 @@ img, video {
         border-radius: 10px;
         border: 1.5px solid transparent;
       }
-      .input:focus-within  {
+      .input:focus, .input:hover  {
         border: 1.5px solid var(--primaryColor);
-        transition: all 0.3s ease; /* Border color on child focus */
+        box-shadow: 0 0 0 5px rgba(129, 248, 169, 0.3);
+        transition: .5s ease; /* Border color on child focus */
       }
     }
   
