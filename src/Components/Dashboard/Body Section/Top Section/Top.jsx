@@ -2,9 +2,13 @@ import {BiSearchAlt} from 'react-icons/bi'
 import {TbMessageCircle} from 'react-icons/tb'
 import {IoNotificationsOutline} from 'react-icons/io5'
 import { BsArrowRightShort } from 'react-icons/bs';
+import DropDownProfile from '@/Components/DropDownProfile';
+import { useState } from 'react';
 
 const Top = () => {
+    const [openProfile, setOpenProfile] = useState(false);
     return ( 
+        
         <div className="topSection">
             <div className="headerSection flex">
                 <div className="title">
@@ -20,9 +24,14 @@ const Top = () => {
                 <div className="adminDiv flex">
                     <TbMessageCircle className="icon"/>
                     <IoNotificationsOutline className="icon"/>
-                    <div className="adminImage">
+                    <div className="adminImage" onClick={() => setOpenProfile((prev) => !prev)}>
                         <img src="/loginAssets/user.png" alt="Admin Image" />
+                        
                     </div>
+                    {/* {
+                            openProfile && <DropDownProfile />
+                    } */}
+                    
                 </div>
 
             </div>
@@ -63,16 +72,7 @@ const Top = () => {
                             <img src="/loginAssets/books.png" alt="Image Name" />
                         </div>
 
-                        {/* <div className="sideBarCard">
-                <BsQuestionCircle className='icon'/>
-                <div className="cardContent">
-                    <div className="circle1"></div>
-                    <div className="circle2"></div>
-                    <h3>Help Center</h3>
-                    <p>Having trou  ble in (website), please contact us for more questions.</p>
-                    <button className='btn'>Go to help center</button>
-                </div>
-            </div> */}
+                        
                     </div>
 
                 </div>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
 
 * {
   margin: 0;
@@ -487,6 +487,7 @@ img, video {
         width: 2.5rem;
         overflow: hidden;
         box-shadow: 0 2px 4px var(--inputColor);
+        cursor: pointer;
         
         img{
           width: 100%;
@@ -819,11 +820,6 @@ img, video {
     }
 }
 
-
-
-
-
-
 .activitySection{
   flex-basis: 50%;
     .heading{
@@ -846,7 +842,7 @@ img, video {
       }
     }
     .secContainer{
-      margin-top: rem;
+      margin-top: .7rem;
       .singleCustomer{
         align-items: flex-start;
         justify-content: space-between;
@@ -894,9 +890,9 @@ img, video {
     }
   } */
 
-  .dashboard-wrapper {
+.dashboard-wrapper {
     width: 100%;
-    height: 100vh; /* vh stands for viewport height */
+    height: 100vh; 
 }
 
 .dashboard {
@@ -1062,3 +1058,95 @@ img, video {
     }
   }
 }
+
+/* .dropDownProfile {
+  position: absolute;
+  right: 1rem;
+  top: 6rem;
+  width: 100px;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: white;
+  border: 1px solid gray;
+}
+
+.dropDownProfile ul {
+  
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
+
+}
+.dropDownProfile ul li{
+  
+  cursor: pointer;
+  color: var(--textColor);
+  font-weight: 700;
+  &:hover{
+    color: green;
+    transition: 0.3s ease;
+  }
+
+}
+
+
+.dropDownProfile::before{
+  content: '';
+  position: absolute;
+  top: -.8rem;
+  right: 1.45rem;
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  background-color: white;
+  border-left: 1px solid gray;
+  border-top: 1px solid gray;
+
+
+} */
+/* components/DropdownMenu.module.css */
+
+
+.dropdown {
+  position: absolute;  
+  top: 45px;
+  right: -40px;
+  transform: translateX(-45%);
+  background-color: var(--whiteColor);
+  border: 1px solid grey;
+  padding: 0 2rem;
+  overflow: hidden;
+  border-radius: 10px;
+  cursor: pointer;
+  color: rgb(215, 48, 48);
+  font-weight: 600;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  &:hover{
+    background-color: var(--bgColor);
+    transition: .3s ease;
+  }
+ 
+  
+}
+.menu-item{
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  
+  }
+  .active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transform: 0.3s ease;
+  }
+  .inactive{
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+    transform: translateY(-20px);
+    transform: 0.3s ease;
+    
+  }

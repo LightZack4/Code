@@ -115,7 +115,7 @@ const Sidebar = () => {
                     <div className="circle1"></div>
                     <div className="circle2"></div>
                     <h3>Help Center</h3>
-                    <p>Having trou  ble in (website), please contact us for more questions.</p>
+                    <p>Having trouble in (website), please contact us for more questions.</p>
                     <button className='btn'>Go to help center</button>
                 </div>
             </div>
