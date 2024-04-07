@@ -39,7 +39,7 @@ const Sidebar = () => {
                 <ul className="menuLists grid">
 
                     <li className="listItems">
-                        <Link href="http://localhost:3000/settings/setting3" className='menuLink flex'>
+                        <Link href="http://localhost:3000/settings/myaccount" className='menuLink flex'>
                             <FaRegUserCircle  className="icon"/>
                             <span className="smallText">
                                 My Account
@@ -48,7 +48,7 @@ const Sidebar = () => {
                     </li>
 
                     <li className="listItems">
-                        <Link href="http://localhost:3000/settings/setting1" className='menuLink flex'>
+                        <Link href="http://localhost:3000/settings/security" className='menuLink flex'>
                             <MdOutlineSecurity className="icon"/>
                             <span className="smallText">
                                 Security
@@ -57,7 +57,7 @@ const Sidebar = () => {
                     </li>
 
                     <li className="listItems">
-                        <Link href="http://localhost:3000/settings/setting4" className='menuLink flex'>
+                        <Link href="http://localhost:3000/settings/notification" className='menuLink flex'>
                             <IoMdNotificationsOutline className="icon"/>
                             <span className="smallText">
                                 Notification

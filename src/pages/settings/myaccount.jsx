@@ -8,7 +8,7 @@ const Setting3 = () => {
       <div className="myaccountsettings-box">
         <h2 className="myacounttitle">My Account</h2>
         <div className="myaccountprofile-picture">
-          <img src="loginAssets\user.png" alt="Profile" className="myaccountprofile-img" />
+          <img src="/loginAssets/user.png" alt="Profile" className="myaccountprofile-img" />
           <button className="myaccountchange-picture-btn">Change Picture</button>
         </div>
         <hr className="myaccountdivider" />
