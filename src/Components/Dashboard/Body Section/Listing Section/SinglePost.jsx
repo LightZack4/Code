@@ -101,7 +101,7 @@ const SinglePost = () => {
                             <span>Your thoughts?</span>
                             <div className="commentfucntion">
 
-                            <textarea maxlength="200" class="comment-textarea" placeholder='Add a comment...'></textarea>
+                            <textarea maxLength="200" class="comment-textarea" placeholder='Add a comment...'></textarea>
 
                             <IoIosSend className='icon'/>
                             </div>
