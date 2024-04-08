@@ -933,6 +933,7 @@ img, video {
           /* Add other styles as needed */
           .commentDiv{
             width: 100% -100px;
+            min-width: auto;
             h3{
               font-size: var(--h3FontSize);
               

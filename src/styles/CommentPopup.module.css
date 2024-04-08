@@ -23,11 +23,13 @@
    
     position: absolute;
     padding: 32px;
+    min-width: 320px;
     width: 65%;
     height: 75%;
     /* max-width: 640px; */
     background-color: #FFF;
     border-radius: 25px;
+    
     
 }
 
