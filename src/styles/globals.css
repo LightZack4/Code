@@ -901,7 +901,13 @@ img, video {
 
           }
           video{
-            
+            background-size: cover;
+            width: 50%;
+            height: auto;
+            margin: 10px 22px;
+            border: 1px solid black;
+            margin-right: 30px;
+            margin-left: 0;
           }
           .poster{
             display: flex;
