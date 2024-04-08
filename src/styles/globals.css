@@ -666,7 +666,7 @@ img, video {
       }
 
       h1,p, .btn{
-        z-index: 100  ;
+        z-index: 100;
       }
       h1{
         font-size: var(--h1FontSize);
@@ -811,6 +811,7 @@ img, video {
         border-radius: 10px;
         margin-bottom: 1em;
         background: var(--itemCardHover);
+
         
         
        
@@ -868,6 +869,152 @@ img, video {
           width: 95%;
           border-radius: 10px;
         }
+
+        
+        .content{
+          display: flex;
+          flex-direction: column;
+          .user{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            
+          }
+          .comment-content{
+            width: 100%;
+            height: 80%;
+          }
+        }
+        .inner-comments {
+          display: flex;
+          flex-direction: row;
+          padding: .7rem 30px;
+            
+          img{
+            background-size: cover;
+            width: 50%;
+            height: auto;
+            margin: 10px 22px;
+            border: 1px solid black;
+            margin-right: 30px;
+            margin-left: 0;
+
+          }
+          video{
+            
+          }
+          .poster{
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            .comment-content{
+              background-size: cover;
+            width: 95%;
+            height: 100%;
+            }
+            .user{
+              display: flex;
+              flex-direction: row;
+              p{
+                display: inline-block;
+                margin-top: 15px;
+              }
+            }
+            .userImg{
+              margin-left: 22px;
+              margin-right: 10px;
+              width: 35px;
+              height: 35px;
+              border-radius: 50%;
+            }
+            
+          }
+         
+          /* Add other styles as needed */
+          .commentDiv{
+            width: 100% -100px;
+            h3{
+              font-size: var(--h3FontSize);
+              
+            }
+            .userDiv{
+              display: flex;
+              flex-direction: row;
+              
+              span{
+                display: inline-block;
+                margin-top: 12px;
+                font-size: var(--smallestFontSize);
+                font-weight: 500;
+                
+                p{
+                color: grey;
+                font-weight: 550;
+                font-size: var(--smallFontSize);
+                display: block;
+                margin-bottom: 5px;
+                
+                }
+              }
+              .userImg{
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                object-fit: cover;
+                margin-right: 10px;
+                margin-left: 20px;
+                margin-top: 20px;
+                border: none;
+              }
+            }
+            height: 100%;
+            .addComment {
+              
+              span {
+                color: var(--blackColor);
+                font-weight: 500;
+                font-size: 1rem;
+              }
+              position: absolute;
+              bottom: 30px;
+              width: 45%; /* Adjust this value as needed */
+            
+              .comment-textarea {
+                width: 100%; /* Adjust width to fill the available space */
+                max-width: 100%; /* Set max-width to 100% to prevent it from exceeding its container */
+                min-height: 50px; /* Set a minimum height */
+                max-height: calc(100vh - 200px); /* Set max-height based on viewport height, adjust as needed */
+                resize: none; /* Prevent resizing of the textarea */
+                overflow-y: auto; /* Enable vertical scrolling when content exceeds the height */
+                border: none;
+                margin-top: 10px;
+                border: 1.5px solid transparent;
+                border-radius: 10px;
+              }
+            
+              .comment-textarea:focus,
+              .comment-textarea:hover {
+                outline: none;
+                border: 1.5px solid var(--primaryColor);
+                box-shadow: 0 0 0 5px rgba(129, 248, 169, 0.3);
+                transition: 0.3s ease; /* Border color on child focus */
+              }
+            
+              .commentfucntion {
+                display: flex;
+                flex-direction: row;
+            
+                .icon {
+                  width: 35px;
+                  height: 35px;
+                  margin-left: 7px;
+                  margin-top: 17px;
+                }
+              }
+            }
+            
+          }
+      }
 
         .postIcon{
           margin: 9px;
@@ -1945,3 +2092,4 @@ img, video {
       box-shadow: 0 -36px 0 -10px transparent, 32px -16px 0 -10px transparent, 32px 16px 0 -10px transparent, 0 36px 0 -10px transparent, -32px 16px 0 -10px transparent, -32px -16px 0 -10px transparent;
     }
   }
+

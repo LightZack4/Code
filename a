@@ -1,0 +1,77 @@
+[33mcommit 6d03df3375b45421a229363db163e0919811da31[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mraouf[m[33m)[m
+Author: Fiala <zack.seed.4044.@gmail.com>
+Date:   Sun Apr 7 11:47:34 2024 +0100
+
+    fixed myacount goofy
+
+[33mcommit 402ef3f69b8c5a710ef52565bcc5a4f047ec26b3[m
+Author: Fiala <zack.seed.4044.@gmail.com>
+Date:   Sun Apr 7 11:15:18 2024 +0100
+
+    raouf settings
+
+[33mcommit cf96636a51ebac5438c977024078757124bb19e7[m
+Author: Fiala <zack.seed.4044.@gmail.com>
+Date:   Sun Apr 7 11:06:25 2024 +0100
+
+    raouf zad dar 3afsa idk
+
+[33mcommit a2e38f3b3d6dd20ec5d8ff70405b548afaa4510b[m
+Author: Fiala <zack.seed.4044.@gmail.com>
+Date:   Thu Apr 4 00:20:37 2024 +0100
+
+    second commit on raouf branch
+
+[33mcommit 1be7c197084872f4fa7374dcffd49ae7706a044f[m[33m ([m[1;32mmaster[m[33m)[m
+Author: Fiala <zack.seed.4044.@gmail.com>
+Date:   Wed Apr 3 23:09:03 2024 +0100
+
+    added login/signup colors
+
+[33mcommit b48edc4badc2eb1627aff3d10f0a78a4235f8bc9[m
+Author: Fiala <zack.seed.4044.@gmail.com>
+Date:   Wed Apr 3 17:02:02 2024 +0100
+
+    added colors to input login
+
+[33mcommit 0812573fffd4e92e04a572ea2050314364e44636[m
+Author: Fiala <zack.seed.4044.@gmail.com>
+Date:   Wed Apr 3 10:29:36 2024 +0100
+
+    finished report button
+
+[33mcommit d66af48dd90b0acb9dbb6689efec5166e3d60370[m
+Author: Fiala <zack.seed.4044.@gmail.com>
+Date:   Tue Apr 2 20:26:03 2024 +0100
+
+    finished post design
+
+[33mcommit 21ef8cd817e204fc5ba59ab120d9b987a109b7b5[m
+Author: Fiala <zack.seed.4044.@gmail.com>
+Date:   Tue Apr 2 10:58:47 2024 +0100
+
+    before trying to fix sidebar
+
+[33mcommit 97b6db4b26436fad7ec668cabe8d5438d0afac0a[m
+Author: Fiala <zack.seed.4044.@gmail.com>
+Date:   Tue Apr 2 00:21:53 2024 +0100
+
+    fixed login/signup media
+
+[33mcommit a0b2b1ff72a12fb9f07fb244733733812ece61b0[m
+Author: Fiala <zack.seed.4044.@gmail.com>
+Date:   Mon Apr 1 18:21:22 2024 +0100
+
+    workign on homepage
+
+[33mcommit efcd434a9d5a6aa8bec754b8f87129a1ba93a92f[m
+Author: Fiala <zack.seed.4044.@gmail.com>
+Date:   Thu Mar 28 13:05:30 2024 +0100
+
+    added signup
+
+[33mcommit 159382a18947d1cfb4c503536ea893e3a139d988[m
+Author: Fiala <zack.seed.4044.@gmail.com>
+Date:   Thu Mar 28 12:50:03 2024 +0100
+
+    finished login
