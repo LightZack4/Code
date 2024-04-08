@@ -85,6 +85,16 @@ const SinglePost = () => {
                             
                             
                         </div>
+                        <div className='userDiv'>
+                            <img src={userImg} className='userImg' />
+                            <span>Username
+                                <p className='grey'>@Amigo23</p>
+                                <form>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi perspiciatis mollitia odio ipsam architecto praesentium voluptates? Odit, placeat at et dolores perferendis ad molestiae labore voluptates error repudiandae blanditiis eveniet!</form>
+                            </span>
+                            
+                            
+                        </div>
+                        
                         
                        
                         <div className='addComment'>
