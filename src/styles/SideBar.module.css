@@ -1,3 +1,7 @@
+#sideBar::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar */
+}
+
 #sideBar{
     background-color: var(--whiteColor);
     box-shadow: 1px 0px 4px var(--greyColor);
@@ -5,13 +9,15 @@
     height: 100%;
     gap:3rem;
     overflow: auto;
+
     
 
     .profileDiv {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
+        margin-top: 10px;
     }
     
     .profileImage {
@@ -24,7 +30,7 @@
     .profileImage img {
         width: 100%;
         height: auto;
-    }
+    }   
     
     .profileText {
         margin-top: 10px;
@@ -36,7 +42,13 @@
     }
     
     .profileText:hover {
-        color: green; 
+        color: var(--primaryColor); 
+        cursor: pointer;
+    }
+    .profileTag{
+        color: grey;
+        font-size: small;
+        font-weight: 550;
     }
     
 }

@@ -4,12 +4,13 @@ import { FaRegUserCircle } from "react-icons/fa";
 import { IoSettingsOutline } from "react-icons/io5";
 import { MdOutlineSecurity } from "react-icons/md";
 import { IoMdNotificationsOutline } from "react-icons/io";
-import { MdOutlineSaveAlt } from "react-icons/md";
+import { CgMenuMotion } from "react-icons/cg";
 
-import { IoMdSpeedometer } from 'react-icons/io'
-import { RiKakaoTalkFill } from 'react-icons/ri'
-import { MdOutlineExplore } from 'react-icons/md'
+import { CgProfile } from "react-icons/cg";
+import { IoMdAdd } from "react-icons/io";
+import { IoChatbox } from "react-icons/io5";
 import { BsQuestionCircle, BsTrophy } from 'react-icons/bs'
+import { MdDashboard } from "react-icons/md";
 
 
 const Sidebar = () => {
@@ -25,9 +26,56 @@ const Sidebar = () => {
         <img src="loginAssets\user.png" alt="Profile Image" />
     </div>
 {/* add link t3 profile page */}
-        <a className={styles.profileText}>My Profile</a>
+        <Link className={styles.profileText} href="/dashboard">Username</Link>
+        <span className={styles.profileTag}>@Amigo01</span>
     
 </div>
+
+<div className="menuDiv">
+                <h3 className="divTitle">
+                <CgMenuMotion className='icon'/>
+                    Quick Menu
+                </h3>
+                <ul className="menuLists grid">
+
+                    <li className="listItems">
+                        <Link href="/dashboard" className='menuLink flex'>
+                            <MdDashboard className="icon"/>
+                            <span className="smallText">
+                                Dashboard
+                            </span>
+                        </Link>
+                    </li>
+
+                    <li className="listItems">
+                        <Link href="/profile" className='menuLink flex'>
+                            <CgProfile className="icon"/>
+                            <span className="smallText">
+                                Profile
+                            </span>
+                        </Link>
+                    </li>
+
+                    <li className="listItems">
+                        <Link href="#" className='menuLink flex'>
+                            <IoMdAdd className="icon"/>
+                            <span className="smallText">
+                                Create
+                            </span>
+                        </Link>
+                    </li>
+
+                    <li className="listItems">
+                        <Link href="/chat" className='menuLink flex'>
+                            <IoChatbox className="icon"/>
+                            <span className="smallText">
+                                Chat
+                            </span>
+                        </Link>
+                    </li>
+
+                </ul>
+            </div>
  
           
             
@@ -65,14 +113,6 @@ const Sidebar = () => {
                         </Link>
                     </li>
 
-                    <li className="listItems">
-                        <Link href="#" className='menuLink flex'>
-                            <MdOutlineSaveAlt className="icon"/>
-                            <span className="smallText">
-                                 Saved
-                            </span>
-                        </Link>
-                    </li>
 
                 </ul>
 

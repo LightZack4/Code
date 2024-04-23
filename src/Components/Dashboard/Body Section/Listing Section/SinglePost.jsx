@@ -46,16 +46,14 @@ const SinglePost = () => {
                 <div className='single'><AiOutlineHeart className='icon' />
                     <span className='iconWriting'>24.4k Like</span></div>
 
-                <div className='single'><CiShare2 className='icon share' />
-                    <span className='iconWriting'>134 Share</span></div>
+               
 
                 <div className='single'>
                     <FaRegComment className='icon' onClick={handleCommentClick} />
                     <span className='iconWriting' onClick={handleCommentClick}>33 Comment</span>
                 </div>
 
-                <div className='single'><BsBookmark className='icon' />
-                    <span className='iconWriting'>16 Saved</span></div>
+               
             </div>
 
             <div className="captionSection">

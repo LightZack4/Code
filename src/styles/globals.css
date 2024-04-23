@@ -37,6 +37,8 @@
   display: grid;
   align-items: center;
   gap: 1.5rem;
+  
+  
 }
 html {
   font-size: 90%;
@@ -306,6 +308,7 @@ img, video {
   box-shadow: 2px 2px 8px var(--greyColor);
 }
 
+
 .sideBar h2 {
   font-size: var(--h2FontSize);
   color: var(--primaryColor);
@@ -315,7 +318,14 @@ img, video {
   .divTitle {
     font-size: var(--h3FontSize);
     color: var(--blackColor);
-    padding: 0 1.5rem 1.5rem;  
+    padding: 0 1.5rem 1.5rem; 
+    display: flex;
+    flex-direction: row;  
+    
+    .icon{
+      margin-right: .5rem;
+      cursor: default;
+    }
   } 
   .menuLists{
     .listItems {
@@ -363,6 +373,7 @@ img, video {
   padding-left: 1rem;
   text-align: center;
   position: relative;
+  
 
   .icon{
     position: absolute;
@@ -428,9 +439,6 @@ img, video {
   }
 }
 
-::-webkit-scrollbar{
-  display: none;
-}
 
 .topSection{
   .headerSection{
