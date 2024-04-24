@@ -1,0 +1,220 @@
+.avatare{
+    margin-bottom:-200px ;
+    margin-left: 20px;
+    margin-top: 1.5cm;
+    justify-content: center;
+    
+    height: 3.0cm;
+    width: 3.0cm;
+    border-radius: 50%;
+
+}
+.mango{
+    background-image: url(./silhouettes-students-graduate.webp);/*./ta5aroj.jpg===shutterstock_658847998.jpg===/remise\ des\ diplomes.jpg===*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  height: 7cm;
+  border-color: #000;
+    display: flex;
+  justify-content: center; /* Centrer horizontalement */
+  align-items: center; /* Centrer verticalement */
+ 
+
+}
+.infouserblok{
+    margin-top:10px ;
+}
+.nom{
+    /*padding-left:15px;*/
+    
+    margin-top: 2cm;
+    color:black;
+    text-align: center;
+
+}
+.job{
+    font-size: 14px;
+    margin-top: -15px;
+    margin-left:-80px ;
+   color: rgb(221, 216, 216);
+    text-align: center;
+   
+    
+}
+.Location{
+   
+    margin-top: 10px;
+    color:dimgray;
+    font-size: 10px;
+   
+}
+.locationphoto{
+    padding-left: 8px; 
+    height: 10px; 
+    width: 10px; 
+}
+.follow-info{
+   margin-top: 40px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around ;
+    color: #2D88FF;
+}
+.byog{
+    margin-left: 15px;
+    margin-top: 5px;
+    color:dimgray;
+    font-size: 14px;
+}
+.byoglocation{
+   
+    text-align: center;
+}
+.horizn{
+    
+    padding-left: 2cm;
+    margin:auto;
+    width: 130px;
+}
+.horizn2{
+    margin-top: 1.5cm ;
+}
+.buton ul {
+display: flex;
+margin-left:-20px;
+}
+.buton ul li {
+   list-style-type: none;
+   
+  
+   padding: 5px;
+    }
+
+.likebuton{
+    width: 2.5cm;
+    background-color: #2D88FF; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte */
+    border: none; /* Supprimer la bordure */
+    padding: 8px 10px; /* Ajouter un espacement intérieur */
+    font-size: 14px; /* Taille de la police */
+    border-radius: 5px; /* Ajouter des coins arrondis */
+    cursor: pointer; /* Curseur de la souris en forme de main */
+    transition: background-color 0.3s ease; /* Ajouter une transition en douceur lors du survol */
+  }
+  
+  .button-like:hover {
+    background-color: #1F77D0; /* Couleur de fond du bouton au survol */
+  }
+  .blok-nbrJaim-buton{
+    display: flex;
+    
+  }
+  .iconlike{
+    margin-right: 2px;
+  }
+  
+/*.sharebuton{
+    color: white;
+    background-color: rgb(17, 148, 248);
+    background-color: rgb(17, 148, 248) ;
+    margin-left:4px ;
+    border-width: 1px;
+    padding: 6px 12px 6px 12px;
+    border-radius: ;
+    
+}*/
+.sharebuton{
+    background-color: #4267B2; 
+    color : #fff; 
+    border: none; 
+    padding: 8px 16px; 
+    font-size: 14px;
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    width: 180px;
+  }
+  
+  .sharebuton {
+    background-color: #314C85; /* Couleur de fond du bouton au survol */
+  }
+    .postbuton {
+        margin-right: 15px;
+        margin-left:20cm ;
+        color: white; /* Couleur du texte */
+        border: none; /* Pas de bordure */
+        padding: 7px 12px; /* Rembourrage intérieur */
+        font-size: 14px; /* Taille de police */
+        font-weight: bold; /* Gras */
+        border-radius: 5px; /* Bord arrondi */
+        cursor:pointer;  /* Curseur pointeur au survol */
+        transition: background-color 0.3s; /* Transition en douceur lors du survol */
+        background-color: #E1BEE7;
+        
+      }
+      
+     
+      
+    
+     
+  
+.postbuton:hover {
+    background-color: #0080f6; /* Changement de couleur de fond au survol */
+}
+
+.ChangeBio-Avatar-location{
+    justify-content: flex-end;
+    list-style-type: none;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 1px;
+}
+.penbuton{
+
+}
+.camerabuton{
+    
+        background-color: #ADD8E6; 
+        border: none;
+        color: white;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 4px;
+        cursor: pointer;
+        border-radius: 8px;
+        
+     
+    }    
+      .camerabuton:hover {
+        background-color: #5F9EA0; /* Darker green on hover */
+      }
+ .penbuton{
+    background-color: #ADD8E6; 
+        border: none;
+        color: white;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 4px;
+        cursor: pointer;
+        border-radius: 8px;
+        
+
+      }
+  .penbuton:hover{
+    background-color: #5F9EA0;
+      }
+
+
+
+
+  
+ 
+  
+  

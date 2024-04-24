@@ -1,0 +1,48 @@
+
+.fbimj{
+    height: 0.5cm; 
+    width: 0.5cm;
+    border-radius: 50%;
+}
+.instaimj{
+    height: 0.5cm; 
+    width: 0.5cm; 
+    border-radius: 50%;
+}
+.linkdimj{
+    height: 0.5cm; 
+    width: 0.5cm; 
+    border-radius: 50%;
+}
+.horizontal-list {
+    list-style-type: none;  
+    padding: 0;
+    margin: 0;
+   
+    display: flex; 
+    
+}
+
+.horizontal-list li {
+    margin-right: 10px; 
+    margin-top: 70px;
+}
+
+.horizontal-list li:last-child {
+    margin-right: 0; 
+}
+.butonvershaut{
+    font-size: 11px;
+    height: 15px;
+    padding-bottom: 2px;
+    background-color: #E1BEE7;
+    color: white;
+    
+    border-radius: 5px;
+    border: none;
+
+    
+}
+.block-du-button-vers-haut{
+    text-align: right;
+}

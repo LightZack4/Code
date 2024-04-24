@@ -1,0 +1,59 @@
+/* Styles pour le titre du site */
+.logo {
+    width: 6cm;
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #333; /* Couleur du texte */
+    margin-bottom: 5px;
+    margin-left: 15px;
+    
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ombre portée */
+  }
+  
+  /* Styles pour les effets de survol */
+  .logo:hover {
+    color: #ff6600; 
+    cursor: pointer;
+  }
+  
+
+
+
+.header { background: url(./ss2.jpg);
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+  background-size: cover;
+    padding :3px;
+    height:1cm ;
+    border-radius: 10px 10px 0px 0px ;
+    
+
+}
+.header li {
+  font-family:  Arial, Helvetica, sans-serif;
+  display: inline; 
+  margin-right:10cm; 
+  font-size: large;
+
+}
+.home{
+    margin-left: 3cm;
+    color: #e1341e;
+
+}
+.H{font-weight:bold ;
+    color: #e1341e;
+}
+.profile{
+    color: #e1341e;
+}
+.P{font-weight:bold ;
+   color: #e1341e;
+}
+.settings{
+    color: #e1341e;
+}
+.S{font-weight:bold ; 
+    color: #e1341e;
+}
+

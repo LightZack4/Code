@@ -57,7 +57,7 @@ const Sidebar = () => {
                     </li>
 
                     <li className="listItems">
-                        <Link href="#" className='menuLink flex'>
+                        <Link href="/create" className='menuLink flex'>
                             <IoMdAdd className="icon"/>
                             <span className="smallText">
                                 Create
