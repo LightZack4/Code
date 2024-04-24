@@ -17,6 +17,13 @@ const Listing = () => {
             <div className="secContainer flex">
                <SinglePost />
                <SinglePost />
+               <SinglePost />
+               <SinglePost />
+               <SinglePost />
+               <SinglePost />
+               <SinglePost />
+               <SinglePost />
+               <SinglePost />
             </div>
         </div>
     );

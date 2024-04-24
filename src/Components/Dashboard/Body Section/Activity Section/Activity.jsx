@@ -1,4 +1,3 @@
-import styles from '@/styles/Activity.module.css'
 import { BsArrowRightShort } from 'react-icons/bs';
 const Activity = () => {
     return ( 
