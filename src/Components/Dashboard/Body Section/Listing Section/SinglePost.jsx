@@ -37,7 +37,7 @@ const SinglePost = () => {
                 <IoIosMore className="more" onClick={handleClick} />
             </div>
 
-            <img src="/loginAssets/dmc.jpg" alt="dmc" />
+            <img src="/loginAssets/dmc.jpg" />
             <DropdownMenu open={open} />
 
             <div className='postIcon'>

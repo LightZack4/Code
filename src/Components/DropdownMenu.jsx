@@ -9,7 +9,7 @@ const DropdownMenu = ({ open }) => {
     }
   return (
     <div className={`dropdown ${open ? 'active' : 'inactive'}`}>
-  <DropdownItem>Report</DropdownItem>
+  <DropdownItem> Report </DropdownItem>
 </div>
 
   );
