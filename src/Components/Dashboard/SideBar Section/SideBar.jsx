@@ -18,9 +18,6 @@ const Sidebar = () => {
         <div className='sideBar grid' id={styles.sideBar}>
 
 
-
-
-
 <div className={styles.profileDiv}>
     <div className={styles.profileImage}>
         <img src="loginAssets\user.png" alt="Profile Image" />
@@ -48,7 +45,7 @@ const Sidebar = () => {
                     </li>
 
                     <li className="listItems">
-                        <Link href="/profile" className='menuLink flex'>
+                        <Link href="/myprofile" className='menuLink flex'>
                             <CgProfile className="icon"/>
                             <span className="smallText">
                                 Profile
@@ -123,7 +120,7 @@ const Sidebar = () => {
                     <div className="circle1"></div>
                     <div className="circle2"></div>
                     <h3>Help Center</h3>
-                    <p>Having trou  ble in (website), please contact us for more questions.</p>
+                    <p>Having trouble in (website), please contact us for more questions.</p>
                     <button className='btn'>Go to help center</button>
                 </div>
             </div>

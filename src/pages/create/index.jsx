@@ -125,7 +125,7 @@ export default function Create() {
         </div>
         <div className="container1">
           <header>Enter a caption here</header>
-          <textarea placeholder="Enter text"></textarea>
+          <textarea placeholder="Enter text" className='captionText'></textarea>
           <button onClick={handleButtonClick} className='testbtn'>Submit</button>
         </div>
       </div>

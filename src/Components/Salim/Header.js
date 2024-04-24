@@ -1,5 +1,6 @@
 import React from 'react';
-import './Header.css'
+
+
 import { IoIosHome } from "react-icons/io";
 export default function(){
     

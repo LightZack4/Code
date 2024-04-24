@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import { AiOutlineHeart } from 'react-icons/ai';
 import { FaRegComment } from 'react-icons/fa';
 import { IoIosMore } from 'react-icons/io';
-import { BsBookmark } from 'react-icons/bs';
-import { CiShare2 } from "react-icons/ci";
 import DropdownMenu from '@/Components/DropdownMenu';
 import CommentPopup from '@/Components/Dashboard/Body Section/Listing Section/CommentPopup';
 import { IoIosSend } from "react-icons/io";
